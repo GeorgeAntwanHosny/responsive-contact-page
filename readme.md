@@ -19,7 +19,7 @@
 - ### Deploy the solution and submit Repository URL and Demo URL.
 
 ## For Larg Scree
-![alt text](./images/solution.png)
-
+![alt text](./images/solution_1.png.png)
+![alt text](./images/solution_2.png.png)
 ## For Small Screen
 ![alt text](./images/solution_small_screen.png)
