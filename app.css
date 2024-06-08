@@ -5,9 +5,9 @@
 body,
 html {
   background-image: url("./images/bg-image.svg");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: top;
 }
 .be-vietnam-pro-semibold {
   font-family: "Be Vietnam Pro", sans-serif;
@@ -95,7 +95,7 @@ input::placeholder {
 }
 
 select {
-  background: url(./images/icons8-expand-arrow-16.png) no-repeat white;
+  background: url(./images/Expand_down.svg) no-repeat white;
   background-position: right 20px center; /* Change the px value here to change the distance */
   -moz-appearance: none;
   -webkit-appearance: none;
