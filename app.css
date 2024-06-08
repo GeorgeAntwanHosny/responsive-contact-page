@@ -49,7 +49,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   margin-bottom: 50px;
 }
 form {
@@ -104,8 +103,8 @@ select {
   padding-left: 20px;
 }
 textarea {
-  border-radius: 10px;
-  height: 150px;
+  border-radius: 15px;
+  height: 180px;
   border: none;
   padding: 10px;
   padding-top: 20px;
@@ -135,66 +134,113 @@ form > button:hover {
   background-color: #4036a9;
   color: #ffff;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1183px) and (min-width: 1024px){
   .questionTitle {
-    width: 810px;
+    width: 70%;
+  }
+  .questionTitle > p:nth-child(1){
+    width: 90%;
+  }
+  .questionTitle > p:nth-child(2) {
+    width: 90%;
   }
 }
-@media (max-width: 908px) and (min-width: 640px) {
+ 
+
+@media (max-width: 1025px) and (min-width: 864px) {
   .questionTitle {
-    width: 70vw;
+    width: 82%;
   }
-  .questionTitle > p:nth-child(1) {
+  /* .questionTitle > p:nth-child(1) {
     font-size: 3.8rem;
   }
   .questionTitle > p:nth-child(2) {
     font-size: 1.8rem;
+  } */
+  .questionTitle > p:nth-child(1){
+    width: 90%;
+  }
+  .questionTitle > p:nth-child(2) {
+    width: 90%;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 864px) and (min-width: 740px){
   .questionTitle {
-    width: 95vw;
+    width: 95%;
   }
-  .questionTitle > p:nth-child(1) {
+  /* .questionTitle > p:nth-child(1) {
     font-size: 3.4rem;
   }
   .questionTitle > p:nth-child(2) {
     font-size: 1.4rem;
-  }
-}
-
-@media (max-width: 640px) and (min-width: 375px) {
-  .questionTitle {
-    width: 100vw;
-  }
-  .questionTitle > p:nth-child(1) {
-    font-size: 2.5rem;
+  } */
+  .questionTitle > p:nth-child(1){
+    width: 90%;
   }
   .questionTitle > p:nth-child(2) {
-    font-size: 1.2rem;
+    width: 98%;
   }
   form {
     width: 85%;
   }
-  form > div {
-    width: 95%;
+  
+}
+@media (max-width: 740px) and (min-width: 640px){
+  .questionTitle {
+    width: 100%;
   }
+  .questionTitle > p:nth-child(1){
+    width: 95%;
+    font-size: 3.8rem;
+  }
+  .questionTitle > p:nth-child(2) {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  form {
+    width: 80%;
+  }
+  form > div {
+    width: 98%;
+  }
+}
+@media (max-width: 663px) and (min-width: 375px) {
+  .questionTitle {
+    width: 100%;
+    padding: 30px;
+  }
+    .questionTitle > p:nth-child(1){
+      width: 100%;
+      font-size: 2.8rem ;
+    }
+    .questionTitle > p:nth-child(2) {
+      width: 100%;
+      font-size: 1.6rem;
+    }
+    form {
+      width: 80%;
+    }
+    form > div {
+      width: 98%;
+    }
 }
 @media (max-width: 375px) and (min-width: 275px) {
   .questionTitle {
-    width: 90vw;
+    width: 100vw;
   }
   .questionTitle > p:nth-child(1) {
     font-size: 2rem;
+    width: 100%;
   }
   .questionTitle > p:nth-child(2) {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
+    width: 100%;
   }
   form {
-    width: 90%;
+    width: 80%;
   }
   form > div {
     width: 100%;
   }
-}
+} 
